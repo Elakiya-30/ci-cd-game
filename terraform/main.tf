@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "game_server" {
-  ami           = "ami-019715e0d74f695be" 
+  ami           = "ami-05d2d839d4f73aafb" 
   instance_type = "t3.micro"
   key_name      = "linuxnew"
 
